@@ -9,5 +9,5 @@ Shareable Links – Share a generated link with others, allowing them to try and
 Dark/Light Mode – Toggle between dark and light themes for a visually customizable gameplay experience.
 Interactive Gameplay – Guess the word by entering letters. Immediate feedback will guide you on whether a letter is correct and in the right position.
 Visual Feedback – Color-coded hints to show whether a guessed letter is correct (Green), in the wrong position (Yellow), or not in the word at all (Gray).
-🔗 [Live Demo (if available)]
+🔗 [Live Demo (https://nanmo57.github.io/Guess-The-Word-Game/)]
 📌 Contributions & suggestions are welcome! 🚀
