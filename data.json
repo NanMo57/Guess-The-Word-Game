@@ -1,0 +1,183 @@
+{
+    "EN":{
+    "4": [
+        { "Word": "Lion", "Hint": "King of the jungle."
+        },
+        { "Word": "Bird", "Hint": "It can fly and has feathers."
+        },
+        { "Word": "Rain", "Hint": "It falls from the sky and makes things wet."
+        },
+        { "Word": "Cake", "Hint": "Sweet dessert often eaten at birthdays."
+        },
+        { "Word": "Star", "Hint": "Shines brightly in the night sky."
+        },
+        { "Word": "Frog", "Hint": "Green animal that jumps and lives near water."
+        },
+        { "Word": "Door", "Hint": "You open and close it to enter a room."
+        },
+        { "Word": "Ship", "Hint": "A large boat that sails on the sea."
+        },
+        { "Word": "Moon", "Hint": "It lights up the night and changes shape."
+        },
+        { "Word": "Milk", "Hint": "White drink from cows."
+        }
+    ],
+    "5": [
+        { "Word": "House", "Hint": "Where people live."
+        },
+        { "Word": "Apple", "Hint": "A fruit that can be red or green."
+        },
+        { "Word": "Table", "Hint": "A piece of furniture with a flat top."
+        },
+        { "Word": "River", "Hint": "A large flowing body of water."
+        },
+        { "Word": "Heart", "Hint": "Pumps blood through the body."
+        },
+        { "Word": "Plant", "Hint": "A green organism that grows in soil."
+        },
+        { "Word": "Light", "Hint": "Helps you see in the dark."
+        },
+        { "Word": "Brush", "Hint": "Used to paint or clean."
+        },
+        { "Word": "Tiger", "Hint": "A big cat with orange and black stripes."
+        },
+        { "Word": "Stone", "Hint": "A small, hard piece of rock."
+        }
+    ],
+    "6": [
+        { "Word": "Orange", "Hint": "A citrus fruit and a color."
+        },
+        { "Word": "Garden", "Hint": "A place to grow plants and flowers."
+        },
+        { "Word": "Window", "Hint": "A glass opening in a wall."
+        },
+        { "Word": "Flight", "Hint": "What airplanes do."
+        },
+        { "Word": "Bridge", "Hint": "Structure to cross over a river."
+        },
+        { "Word": "Animal", "Hint": "A living creature, not a plant."
+        },
+        { "Word": "Letter", "Hint": "Part of the alphabet."
+        },
+        { "Word": "Friend", "Hint": "Someone you like and trust."
+        },
+        { "Word": "Banana", "Hint": "A yellow fruit that's curved."
+        },
+        { "Word": "Guitar", "Hint": "A musical instrument with strings."
+        }
+    ],
+    "7": [
+        { "Word": "Kitchen", "Hint": "A room where you cook food."
+        },
+        { "Word": "Thunder", "Hint": "The sound during a storm."
+        },
+        { "Word": "Parrot", "Hint": "A colorful bird that can mimic word's."
+        },
+        { "Word": "Village", "Hint": "A small group of houses in the countryside."
+        },
+        { "Word": "Bicycle", "Hint": "A vehicle with two wheels."
+        },
+        { "Word": "Teacher", "Hint": "Helps you learn at school."
+        },
+        { "Word": "Diamond", "Hint": "A precious stone used in jewelry."
+        },
+        { "Word": "Holiday", "Hint": "A day to relax and not work."
+        },
+        { "Word": "Journey", "Hint": "A trip from one place to another."
+        },
+        { "Word": "Ladder", "Hint": "Used to climb to higher places."
+        }
+    ],
+    "8": [
+        { "Word": "Elephant", "Hint": "A large animal with a trunk."
+        },
+        { "Word": "Rainbow", "Hint": "Appears in the sky after rain."
+        },
+        { "Word": "Mountain", "Hint": "A tall, natural elevation of land."
+        },
+        { "Word": "Notebook", "Hint": "Used for writing notes."
+        },
+        { "Word": "Chocolate", "Hint": "Sweet treat made from cocoa."
+        },
+        { "Word": "Stranger", "Hint": "Someone you do not know."
+        },
+        { "Word": "Carnival", "Hint": "A fun event with rides and games."
+        },
+        { "Word": "Umbrella", "Hint": "Used to stay dry in the rain."
+        },
+        { "Word": "Baseball", "Hint": "A sport with a bat and ball."
+        },
+        { "Word": "Sandwich", "Hint": "Bread with fillings inside."
+        }
+    ],
+    "9": [
+        { "Word": "Pineapple", "Hint": "A tropical fruit with spiky skin."
+        },
+        { "Word": "Adventure", "Hint": "An exciting or risky experience."
+        },
+        { "Word": "Continued", "Hint": "To go on without stopping."
+        },
+        { "Word": "Breakfast", "Hint": "The first meal of the day."
+        },
+        { "Word": "Happiness", "Hint": "A feeling of joy."
+        },
+        { "Word": "Telescope", "Hint": "Used to see stars and planets."
+        },
+        { "Word": "Volcanoes", "Hint": "Mountains that erupt with lava."
+        },
+        { "Word": "Treasures", "Hint": "Valuable hidden items."
+        },
+        { "Word": "Campfires", "Hint": "Fires made outdoors for warmth."
+        },
+        { "Word": "Dinosaur", "Hint": "An extinct reptile from ancient times."
+        }
+    ],
+    "10": [
+        { "Word": "Basketball", "Hint": "A sport with a hoop and ball."
+        },
+        { "Word": "Watermelon", "Hint": "A large green fruit with red inside."
+        },
+        { "Word": "Playground", "Hint": "A place for children to play."
+        },
+        { "Word": "Headphones", "Hint": "Used to listen to music privately."
+        },
+        { "Word": "Snowflakes", "Hint": "Ice crystals that fall in winter."
+        },
+        { "Word": "Blackboard", "Hint": "Used for writing in classrooms."
+        },
+        { "Word": "Friendship", "Hint": "A bond between friends."
+        },
+        { "Word": "Television", "Hint": "Shows pictures and sounds for entertainment."
+        },
+        { "Word": "Firefighter", "Hint": "Rescues people and fights fires."
+        },
+        { "Word": "Hummingbird", "Hint": "A tiny bird that hovers while flying."
+        }
+    ],
+    "11": [
+        { "Word": "Relationships", "Hint": "Connections between people."
+        },
+        { "Word": "Transportation", "Hint": "Ways to move from place to place."
+        },
+        { "Word": "Understanding", "Hint": "The ability to comprehend."
+        },
+        { "Word": "Conservation", "Hint": "Protecting nature and resources."
+        },
+        { "Word": "Celebrations", "Hint": "Special occasions to rejoice."
+        },
+        { "Word": "Communication", "Hint": "Sharing ideas and information."
+        },
+        { "Word": "Environmental", "Hint": "Related to the natural world."
+        },
+        { "Word": "Responsibility", "Hint": "A duty or obligation."
+        },
+        { "Word": "Entrepreneurs", "Hint": "People who start businesses."
+        },
+        { "Word": "Transformation", "Hint": "A major change or shift."
+        }
+    ]
+    },
+    "AR":{
+        
+    }
+}

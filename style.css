@@ -1,0 +1,276 @@
+/*---- Variables ----*/
+:root {
+    --grayish-white: #ededed;
+    --dark-blue: #13141c;
+    --light-grayish-blue: #dfe2e8;
+    --pale-blue-gray: #c2c8d5;
+    --very-light-blue: #fbfcff;
+    --cool-gray: #a4aec4;
+    --green: #79b851;
+    --orange: #f3c237;
+    --white: #ffff;
+}
+
+/*---- General ----*/
+body{
+    background-color: var(--grayish-white);
+    overflow: hidden;
+}
+
+section *, header * {
+    color: var(--dark-blue) !important;
+}
+
+input, select {
+    outline: none;
+    text-align: center;
+}
+
+#Keyboard > div, #Keyboard > div > div {
+    gap: 5px;
+}
+
+#Keyboard .card, #Word .card {
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+#quickMessage > div, #messageWindow .card {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    z-index: 100000000000000000000;
+}
+
+.off-pointer {
+    pointer-events: none !important;
+}
+
+#Setting, #howPlay {
+    height: 90vh !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: var(--grayish-white);
+    scroll-snap-type: none;
+    scrollbar-width: none;
+}
+
+.title {
+    background-color: var(--light-grayish-blue);
+}
+
+/*---- Header Section ----*/
+header {
+    padding: 10px;
+}
+
+header div {
+    gap: 10px;
+}
+
+header .card {
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--light-grayish-blue);
+    border-color: var(--dark-blue);
+}
+
+header .card:hover {
+    background-color: var(--very-light-blue) !important;
+}
+
+header .card:hover * {
+    color: var(--green) !important;
+    cursor: pointer;
+}
+
+.activeHeaderOption {
+    color: var(--green) !important;
+    background-color: var(--very-light-blue) !important;
+}
+
+header .card:hover .fa-question {
+    border-color: var(--green);
+}
+
+header .languages {
+    padding: 18px 30px;
+}
+
+header .card .fa-question {
+    padding: 3px 7px;
+    border: 1px solid var(--dark-blue);
+}
+
+/*---- Game Div ----*/
+#Game section {
+    margin: 30px 0px;
+}
+
+/*---- Hint Section ----*/
+#Hint p {
+    background-color: var(--pale-blue-gray) !important;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    min-width: 280px;
+}
+
+/*---- Word Section ----*/
+#Word div {
+    gap: 8px;
+}
+
+#Word .card {
+    min-width: 45px;
+    height: 50px;
+    cursor: default;
+    max-width: 60px;
+    background-color: var(--very-light-blue);
+    border: 2px solid var(--light-grayish-blue);
+    font-weight: bolder;
+}
+
+/*---- Keyboard Section ----*/
+#Keyboard .card {
+    min-width: 26px;
+    height: 35px;
+    cursor: pointer;
+    background-color: var(--pale-blue-gray);
+    border-color: var(--pale-blue-gray);
+    font-weight: bolder;
+}
+
+/*---- messageWindow Section ----*/
+#quickMessage p{
+    background-color: var(--grayish-white) !important;
+}
+
+/*---- messageWindow Section ----*/
+#messageWindow{
+    z-index: 0;
+}
+#messageWindow .card {
+    min-width: 355px;
+    background-color: var(--grayish-white) !important;
+}
+
+#Result {
+    background-color: var(--light-grayish-blue) !important;
+}
+
+#Result * {
+    color: var(--dark-blue);
+}
+
+#messageWindow h2 img {
+    width: 35px;
+    height: 30px;
+    margin-left: 8px;
+}
+
+#messageWindow #word {
+    border: 2px dashed;
+}
+
+#messageWindow a {
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: blue !important;
+}
+
+#messageWindow button {
+    border: none;
+}
+
+#messageWindow button:first-of-type {
+    background-color: var(--green);
+}
+
+#messageWindow button:last-of-type {
+    width: 100%;
+    background-color: var(--pale-blue-gray);
+}
+
+/*---- Setting Section ----*/
+#Setting #letterNum .card {
+    max-width: 50px;
+    min-width: 27px;
+    padding: 8px 0px;
+    cursor: pointer;
+    background-color: var(--light-grayish-blue);
+    border: none;
+}
+
+#Setting #letterNum .activeNum, #Setting #letterNum .Num:hover {
+    background-color: var(--green);
+    color: var(--white) !important;
+    font-weight: bolder;
+}
+
+/*---- howPlay Section ----*/
+#howPlay .word {
+    gap: 10px;
+}
+
+#howPlay .word .card {
+    height: 50px;
+    max-width: 50px;
+    min-width: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+#howPlay .explain {
+    background-color: var(--pale-blue-gray);
+    max-width: 460px;
+    gap: 10px;
+    padding: 10px;
+}
+
+#howPlay .explain .letter {
+    gap: 5px;
+}
+
+#howPlay .explain .letter .card {
+    color: var(--white);
+}
+
+#howPlay .explain p {
+    margin-left: 10px;
+}
+
+#howPlay img {
+    width: 25px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+/*---- General Classes ----*/
+.notCorrectLetter, .notCorrectLocation, .correctLocation {
+    font-weight: bolder;
+    color: var(--white) !important;
+}
+
+.notCorrectLetter {
+    background-color: var(--cool-gray) !important;
+    border-color: var(--cool-gray) !important;
+}
+
+.notCorrectLocation {
+    background-color: var(--orange) !important;
+    border-color: var(--orange) !important;
+}
+
+.correctLocation {
+    background-color: var(--green) !important;
+    border-color: var(--green) !important;
+}
