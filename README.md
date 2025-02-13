@@ -11,4 +11,5 @@ Interactive Gameplay – Guess the word by entering letters. Immediate feedback 
 Visual Feedback – Color-coded hints to show whether a guessed letter is correct (Green), in the wrong position (Yellow), or not in the word at all (Gray).
 
 🔗 [Live Demo (https://nanmo57.github.io/Guess-The-Word-Game/)]
+
 📌 Contributions & suggestions are welcome! 🚀
